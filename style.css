@@ -1,0 +1,144 @@
+* {
+    margin: 0px;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: url('neu.jpeg') no-repeat center fixed;
+    background-size: cover;
+    display: flex;
+    font-family: sans-serif;
+    position: relative;
+
+}
+
+.container {
+    margin: auto;
+    width: 320px;
+    max-width: 90%;
+}
+
+.container form {
+    width: 110%;
+    height: 100%;
+    padding: 10px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); 
+}
+
+.container form h1 {
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 30px;
+    color: #1b51be;
+}
+
+
+
+.container form .form-control {
+    width: 80%;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    border: 1px solid silver;
+    margin: 0px 0 5px 0;
+    padding: 0 10px;
+}
+
+.remember-me input[type="checkbox"] {
+    margin-left: 4px;
+    margin-right: px;
+    cursor: pointer;
+    
+}
+
+.forgot-password {
+    display: block;
+    text-align: center;
+    margin-top: 15px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.btn {
+    padding: 10px 105px;
+    font-size: 15px;
+    background-color: rgb(68, 117, 232);
+    color: rgb(#333);
+    border-radius: 10px;
+    cursor: pointer; 
+    
+}
+.btn:hover{
+    background-color: var(--text--color);
+
+}
+.btn :focus{
+    outline: none;
+    background-color: var(--text--color);
+}
+.signup-message {
+    font-size: 16px;
+    color: #333;
+}
+.signup-link {
+    color: #007bff;
+    text-decoration: none;
+}
+.sign-up{
+    padding: 10px 105px;
+    font-size: 13px;
+    background-color: rgb(87, 135, 245);
+    color: rgb(#333);
+    border-radius: 10px;
+    cursor: pointer; 
+}
+.sign-up:hover{
+     background-color: var(--text--color);
+
+}
+.social-buttons-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.social-buttons-container h2 {
+    font-size: 20px;
+    color: #1b51be;
+    margin-bottom: 10px;
+}
+
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.social-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.facebook-button {
+    background-color: #3b5998;
+}
+
+.gmail-button {
+    background-color: #db4437;
+}
+
+.social-button:hover {
+    opacity: 0.3;
+}

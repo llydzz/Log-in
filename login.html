@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In</title>
+    
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/8443c579f0.js" crossorigin="anonymous"></script>
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <form id="signInForm">
+            <h1>Sign In</h1>
+            <div class="form-group">
+                <i class="fa-regular fa-user"></i>
+                <label for="username">Username/Email</label>
+                <input id="username" required type="text" class="form-control" placeholder="Username/Email" size="15">
+            </div>
+
+            <br>
+
+            <div class="form-group">
+                <i class="fa-solid fa-key"></i>
+                <label for="password">Password</label>
+                <br>
+                <input id="password" type="password" class="form-control" placeholder="Password" size="8">
+
+                <div class="form-group remember-me">
+                    <input type="checkbox" id="rememberMe">
+                    <label for="rememberMe">Remember me</label>
+                </div>
+
+                <input type="submit" class="btn" value="Sign In">
+
+                
+                <div class="social-buttons-container">
+                    <h2>Connect with us</h2>
+                    <div class="social-buttons">
+                        
+                        <a href="https://www.facebook.com/notes/facebook/facebook-across-the-web/41735647130/?_rdr" target="_blank" class="social-button facebook-button">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+
+                     
+                        <a href="https://accounts.google.com/v3/signin/identifier?ifkv=Ab5oB3rtY8xkncSeNn1RVYjB1hI6PVeWmYhvfWK6-A46rerX2BLwUYzbEiG2M_h9Bd5Z-bO3UjrrrQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin&dsh=S1728133370%3A1725631574269168&ddm=0" target="_blank"
+                        class="social-button gmail-button">
+                            <i class="fab fa-google"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="signup-message">
+                    Don't have an account? <a href="signup.html" target="_blank">Sign up here</a>
+                </div>
+                
+                <div class="forgot-password">Lost password?
+                    <a href="forgot.html" target="_blank">Click Here!</a>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
